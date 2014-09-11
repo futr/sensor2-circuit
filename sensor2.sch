@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "sensor2-condor"
-Date "8 sep 2014"
+Date "11 sep 2014"
 Rev "A"
 Comp ""
 Comment1 ""
@@ -388,12 +388,8 @@ F 3 "" H 5500 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8325 6300
-NoConn ~ 7925 6500
-NoConn ~ 9025 6500
 NoConn ~ 9025 6300
-NoConn ~ 9025 5950
 NoConn ~ 9025 5750
-NoConn ~ 7925 5950
 NoConn ~ 8325 5750
 $Comp
 L GND #PWR09
@@ -644,13 +640,6 @@ Connection ~ 8475 5950
 Wire Wire Line
 	8475 6500 8475 6650
 Connection ~ 8475 6500
-Connection ~ 9225 6650
-Wire Wire Line
-	8475 6100 9225 6100
-Wire Wire Line
-	8475 6650 9225 6650
-Wire Wire Line
-	9225 6100 9225 6750
 Wire Wire Line
 	8100 1525 8100 5025
 Wire Wire Line
@@ -796,11 +785,11 @@ Wire Wire Line
 Wire Wire Line
 	8625 6300 8400 6300
 Wire Wire Line
-	8400 6300 8400 6100
+	8400 6300 8400 6150
 Wire Wire Line
-	8400 6100 7675 6100
+	8400 6150 7675 6150
 Wire Wire Line
-	7675 6100 7675 4500
+	7675 6150 7675 4500
 Wire Wire Line
 	7675 4500 5975 4500
 Wire Wire Line
@@ -1244,4 +1233,23 @@ Wire Wire Line
 Wire Wire Line
 	8000 3550 8400 3550
 Connection ~ 8400 3550
+Wire Wire Line
+	7925 6500 7925 6650
+Connection ~ 8475 6650
+Wire Wire Line
+	7925 6100 7925 5950
+Connection ~ 8475 6100
+Wire Wire Line
+	9025 5950 9225 5950
+Wire Wire Line
+	9225 5950 9225 6750
+Wire Wire Line
+	7925 6650 9225 6650
+Connection ~ 9225 6650
+Wire Wire Line
+	7925 6100 9225 6100
+Connection ~ 9225 6100
+Wire Wire Line
+	9025 6500 9225 6500
+Connection ~ 9225 6500
 $EndSCHEMATC
