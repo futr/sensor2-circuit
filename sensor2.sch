@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "sensor2-condor"
-Date "11 sep 2014"
+Date "12 sep 2014"
 Rev "A"
 Comp ""
 Comment1 ""
@@ -902,8 +902,6 @@ Wire Wire Line
 Wire Wire Line
 	1875 3775 1650 3775
 Wire Wire Line
-	1650 2950 1650 4425
-Wire Wire Line
 	1650 4075 1400 4075
 Connection ~ 1650 4075
 $Comp
@@ -1191,7 +1189,6 @@ NoConn ~ 5975 3550
 NoConn ~ 5975 3450
 NoConn ~ 5975 3350
 NoConn ~ 5975 2500
-NoConn ~ 1400 3975
 Connection ~ 3950 3000
 $Comp
 L VCC #PWR035
@@ -1221,9 +1218,6 @@ Wire Wire Line
 	1200 3150 1550 3150
 Connection ~ 1550 3150
 Wire Wire Line
-	1650 2950 1200 2950
-Connection ~ 1650 3775
-Wire Wire Line
 	5975 3750 8100 3750
 Connection ~ 8100 3750
 Wire Wire Line
@@ -1252,4 +1246,12 @@ Connection ~ 9225 6100
 Wire Wire Line
 	9025 6500 9225 6500
 Connection ~ 9225 6500
+Wire Wire Line
+	1650 3775 1650 4425
+Wire Wire Line
+	1400 3975 1475 3975
+Wire Wire Line
+	1475 3975 1475 2950
+Wire Wire Line
+	1475 2950 1200 2950
 $EndSCHEMATC
