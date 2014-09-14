@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = 2014年09月09日 16時34分30秒
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = 2014年09月14日 17時23分33秒
 
 BeginCmp
 TimeStamp = /54097AAE;
@@ -187,6 +187,13 @@ TimeStamp = /540A7727;
 Reference = SW4;
 ValeurCmp = NEXT;
 IdModule  = AE-TSW;
+EndCmp
+
+BeginCmp
+TimeStamp = /54151221;
+Reference = SW5;
+ValeurCmp = PWR;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp

@@ -1,0 +1,22 @@
+Drill report for /home/masato/Documents/Circuit/sensor2/sensor2.kicad_pcb
+Created on 2014年09月13日 13時08分28秒
+Drill report for plated through holes :
+T1  0.50mm  0.020"  (3 holes)
+T2  0.64mm  0.025"  (10 holes)
+T3  0.76mm  0.030"  (2 holes)
+T4  0.81mm  0.032"  (84 holes)
+T5  1.00mm  0.039"  (16 holes)
+T6  1.00mm  0.039"  (3 holes)  (with 3 slots)
+T7  1.02mm  0.040"  (29 holes)
+T8  1.40mm  0.055"  (4 holes)
+
+Total plated holes count 151
+
+
+Drill report for unplated through holes :
+T1  1.30mm  0.051"  (2 holes)
+T2  3.20mm  0.126"  (4 holes)
+
+Total unplated holes count 6
+
+
