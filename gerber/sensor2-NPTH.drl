@@ -1,6 +1,6 @@
 M48
-;DRILL file {Pcbnew (2013-jul-07)-stable} date 2014年09月14日 21時48分07秒
-;FORMAT={3:3/ absolute / metric / suppress leading zeros}
+;DRILL file {Pcbnew (2013-jul-07)-stable} date 2015年01月22日 18時10分17秒
+;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
 T1C1.300
@@ -10,12 +10,12 @@ G90
 G05
 M71
 T1
-X82500Y11000
-X87500Y11000
+X134.5Y-137.
+X139.5Y-137.
 T2
-X6000Y73000
-X6000Y7000
-X95000Y73000
-X95000Y7000
+X58.Y-75.
+X58.Y-141.
+X147.Y-75.
+X147.Y-141.
 T0
 M30
