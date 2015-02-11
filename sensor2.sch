@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "sensor2-condor"
-Date "14 sep 2014"
+Date "11 feb 2015"
 Rev "A"
 Comp ""
 Comment1 ""
@@ -394,12 +394,12 @@ NoConn ~ 8325 5750
 $Comp
 L GND #PWR09
 U 1 1 540B1794
-P 10850 5000
-F 0 "#PWR09" H 10850 5000 30  0001 C CNN
-F 1 "GND" H 10850 4930 30  0001 C CNN
-F 2 "" H 10850 5000 60  0000 C CNN
-F 3 "" H 10850 5000 60  0000 C CNN
-	1    10850 5000
+P 10850 5450
+F 0 "#PWR09" H 10850 5450 30  0001 C CNN
+F 1 "GND" H 10850 5380 30  0001 C CNN
+F 2 "" H 10850 5450 60  0000 C CNN
+F 3 "" H 10850 5450 60  0000 C CNN
+	1    10850 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -418,7 +418,6 @@ NoConn ~ 10525 3800
 NoConn ~ 10525 5025
 NoConn ~ 8625 5225
 NoConn ~ 10525 5225
-NoConn ~ 10525 5125
 $Comp
 L GND #PWR011
 U 1 1 540B1911
@@ -701,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	10525 4825 10850 4825
 Wire Wire Line
-	10850 4825 10850 5000
+	10850 4825 10850 5450
 Wire Wire Line
 	10525 4925 10850 4925
 Connection ~ 10850 4925
@@ -1254,4 +1253,7 @@ Wire Wire Line
 	1575 2725 1575 3875
 Connection ~ 1575 3875
 Connection ~ 1575 3150
+Wire Wire Line
+	10525 5125 10850 5125
+Connection ~ 10850 5125
 $EndSCHEMATC
